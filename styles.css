@@ -1,8 +1,41 @@
-
+/** font immport*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+
+:root{
+    --primary-color: #B91C1C;
+}
 
 body {
     font-family: 'Montserrat', 
     sans-serif;
 }
 
+/*Fluid Container (to understaand this read about CSS box model and rem in CSS  */ 
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/*link*/
+.link{
+    text-decoration: none /*remove underline*/;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 00.5rem;
+    border: 1px solid var(--primary-color);
+}
