@@ -56,3 +56,31 @@ hr{
 }
 /*by typing reversed within ol, you change the order of ordered list*/
 
+/*changing the background of navigation to primary color*/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+/*adding the link here as we have to change the color of navigation bar in the nav bar link*/
+.navigation .link{
+    color: white;
+}
+
+/* in <ul>,to align the text to the rifht in nav bar simply add a class there and use
+
+.navigation .class{
+    text-align: right
+}
+*/
+
+/*making the text on nav bar bold*/
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+/*making only the home link bold*/
+.navigation .link-active{
+    font-weight: bold;
+}
