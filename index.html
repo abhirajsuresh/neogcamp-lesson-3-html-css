@@ -13,25 +13,25 @@
 <body>
 
     <h2>Welcome to abhirajsuresh's component library</h2>
-    
+
     <p>In this small website we will go throught the beginner level html webpage designing. I think this might be the
         best descisio I have taken at a personal level</p>
-    
+
     <hr>
-    
+
     <h2>@typography</h2>
-    
+
     <h1>This is h1. It is the biggest heading</h1>
-    
+
     <h2>h2 is the 2nd biggest heading</h2>
-    
+
     <p>p is the normal paragrapg text. Nothing much to grasp here. Just plain old first class english writing stuff that
         we all know about.</p>
-    
+
     <small>samll is the smalles text format</small>
-    
+
     <p>This is <strong>bold </strong>text</p>
-    
+
     <hr>
 
     <h2>@container</h2>
@@ -40,7 +40,6 @@
     <div class="container">this is the normal indentation to the left. this is used for the navs </div>
 
     <h3>center container</h3>
-    <div>indents the content to the center</div>
     <div class="container container-center">indents the content to the center</div>
 
     <hr>
@@ -65,7 +64,7 @@
         <li class="list-item-inline">Item Two</li>
         <li class="list-item-inline">Item Three</li>
     </ul>
-    
+
     <h3>reverse ordered list</h3>
     <ol reversed>
         <li>Item One</li>
@@ -77,58 +76,63 @@
 
     <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">this is paragraph</div>    
+        <div class="nav-brand">this is paragraph</div>
         <ul style="text-align: right;">
-            <li class = "list-item-inline">
+            <li class="list-item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
 
-            <li class = "list-item-inline">
+            <li class="list-item-inline">
                 <a class="link" href="/">product</a>
             </li>
-            
-            <li class = "list-item-inline">
+
+            <li class="list-item-inline">
                 <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
 
     <hr>
-    
+
     <h2>
         @header
     </h2>
-    
+
     <header class="hero">
         <img class="hero-img" src="images/hero-image.svg">
         <h1>this is abhirajsuresh's <span class="heading-inverted">web development</span> page</h1>
     </header>
-    
+
     <hr>
 
     <h2>@section</h2>
+
     
-    <h3>white section</h3>
-    
-    <section> 
-        <p>This will have white background</p>
+    <section class="section">
+        <h3>white section</h3>
+        <p class="container-center">A common question we get is “how do I generate the 50–900 shades of my own custom colors?“.
+
+            Bad news, color is complicated and despite trying dozens of different tools, we’ve yet to find one that does a good job generating these sorts of color palettes. We picked all of Tailwind’s default colors by hand, meticulously balancing them by eye and testing them in real designs to make sure we were happy with them.</p>
     </section>
+
     
-    <h3>off white section</h3>
-    
-    <section>
-        <p>This will have gray background</p>
-    </section>
-    
+    <section class="section ow">
+        <h3>off white section</h3>    
+        <p class="container-center">A common question we get is “how do I generate the 50–900 shades of my own custom colors?“.
+
+            Bad news, color is complicated and despite trying dozens of different tools, we’ve yet to find one that does a good job generating these sorts of color palettes. We picked all of Tailwind’s default colors by hand, meticulously balancing them by eye and testing them in real designs to make sure we were happy with them.
+        </p>
+    </section> 
+
     <hr>
 
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer">
         <div>some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+        <ul class="list-non-bullet">
+            <li class= "list-item-inline"><a class="link" href="/"> socialone</a></li>
+            <li class= "list-item-inline"><a class="link" href="/"> socialtwo</a></li>
+            <li class= "list-item-inline"><a class="link" href="/"> socialthree</a></li>
         </ul>
     </footer>
     <!-- <div style="height:20vh">-->
@@ -136,4 +140,3 @@
 </body>
 
 </html>
-

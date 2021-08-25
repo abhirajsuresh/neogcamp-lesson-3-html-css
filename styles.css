@@ -6,7 +6,7 @@
 :root{
     --primary-color: #B91C1C;
     --gray-color: #9CA3AF;
-
+    --off-white: #F4F4F5;
 }
 
 body {
@@ -87,6 +87,9 @@ hr{
     font-weight: bold;
 }
 
+
+/*heading changes*/
+
 .hero{
     text-align: center;
     color: var(--gray-color);
@@ -107,3 +110,33 @@ hr{
     color: var(--primary-color);
 }
 
+/*sections*/
+.section {
+    padding: 2rem
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/*since we have already applied center container above, simply adding the class in p is enough for the section*/
+
+.footer{
+    background-color: #B91C1C;
+    color: var(--off-white);
+    text-align: center;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.footer .link{
+    color: var(--off-white);
+}
+
+.footer ul {
+    padding-inline-start: 0px   
+}
