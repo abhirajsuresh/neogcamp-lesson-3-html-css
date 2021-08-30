@@ -39,6 +39,8 @@ hr{
     background-color: var(--primary-color);
     border-radius: 00.5rem;
     color: white;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .link-secondary{
@@ -115,7 +117,7 @@ hr{
     padding: 2rem
 }
 
-.section h3 {
+.section h1 {
     text-align: center;
 }
 
@@ -136,7 +138,11 @@ hr{
 .footer .link{
     color: var(--off-white);
 }
-
 .footer ul {
     padding-inline-start: 0px   
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
